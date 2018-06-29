@@ -5,3 +5,5 @@ dist
 es
 .idea
 build
+.upload
+.tmp

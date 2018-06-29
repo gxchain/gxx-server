@@ -1,11 +1,5 @@
 {
-    "presets": [
-        "./tools/es2015Preset",
-        "stage-1"
-    ],
-    "env": {
-        "cjs": {
-            "plugins": ["add-module-exports"]
-        }
-    }
+    "presets": ["stage-3", "env"],
+    "plugins": ["transform-runtime", "syntax-dynamic-import"],
+    "comments": false
 }
