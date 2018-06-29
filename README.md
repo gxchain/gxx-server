@@ -38,7 +38,7 @@ npm run build
 pm2 start dist/index.js --name gxcc
 ```
 
-# APIS
+# APIs
 
 ```
 curl -X POST \
@@ -48,7 +48,7 @@ curl -X POST \
   -F bundle=@bundle.zip
 ```
 
-# A basic contract - Hello word
+# A basic contract - Hello world
 
 bundle struct
 
