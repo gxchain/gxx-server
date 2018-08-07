@@ -1,7 +1,7 @@
 {
-  "name": "gxcc",
+  "name": "gxx-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "gxchain smart contract compile service",
   "keywords": [
     "gxs",
     "gxchain",
