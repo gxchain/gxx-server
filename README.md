@@ -35,7 +35,8 @@ npm start
 
 ```
 npm run build
-pm2 start dist/index.js --name gxcc
+pm2 stop gxx-server
+pm2 start dist/index.js --name gxx-server
 ```
 
 # APIs
