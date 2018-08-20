@@ -4,7 +4,6 @@ node_modules
 dist
 es
 .idea
-build
 .upload
 .tmp
 tools
