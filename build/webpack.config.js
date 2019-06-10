@@ -40,8 +40,8 @@ module.exports = {
                     path.resolve(__dirname, "../node_modules")
                 ],
                 query: {
-                    plugins: ["transform-runtime"],
-                    presets: ["env", "stage-3"]
+                    plugins: ["@babel/plugin-transform-runtime"],
+                    presets: ["@babel/env"]
                 }
             },
             {
